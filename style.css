@@ -230,17 +230,20 @@ section {
 }
 
 .btn-color-1,
-.btn-color-2 {
+.btn-color-2,
+.sendmessage-btn {
   border: rgb(53, 53, 53) 0.1rem solid;
 }
 
 .btn-color-1:hover,
-.btn-color-2:hover {
+.btn-color-2:hover,
+.sendmessage-btn {
   cursor: pointer;
 }
 
 .btn-color-1,
-.btn-color-2:hover {
+.btn-color-2:hover,
+.sendmessage-btn:hover {
   background: rgb(53, 53, 53);
   color: white;
 }
@@ -429,4 +432,67 @@ footer {
 
 footer p {
   text-align: center;
+}
+
+/***********************************************************/
+/* Hire Me Form */
+
+.contact-form {
+  width: 100%;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.3);
+  background: transparent;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 6% auto 0;
+  text-align: center;
+}
+
+.contact-form header {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.contact-form h1 {
+  color: black;
+  margin-bottom: 30px;
+}
+
+.input-box {
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 30%;
+  border: 1px solid #999;
+  outline: none;
+}
+
+.input-area {
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 62%;
+  border: 1px solid #999;
+  outline: none;
+}
+
+.contact-form a {
+  text-decoration: none;
+}
+
+.contact-form hr {
+  margin-top: 20px;
+  width: 80%;
+}
+
+.or {
+  background: #fff;
+  width: 30px;
+  margin: -35px auto 10px;
+
+
+  font-size: 18px;
+}
+
+.contact-form img {
+  width: 15%;
 }
