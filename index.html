@@ -54,9 +54,9 @@
         <p class="section__text__p2">Web Developer</p>
         
         <div class="btn-container">
-          <!-- <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
-            Contact Info
-          </button> -->
+          <button class="btn btn-color-2" onclick="location.href='./#contact'">
+            Hire Me
+          </button>
 
           <button class="btn btn-color-1" onclick="location.href='./#contact'">
             Contact Info
@@ -198,6 +198,26 @@
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
+
+      <div class="contact-form">
+        
+        <header>Hire me FORM</header>
+
+        <form action="https://formspree.io/f/mbjnoqyv" method="POST">
+            <input type="name" class="input-box" placeholder="Your name" required>
+            <input type="email" class="input-box" placeholder="Your e-mail" required>
+
+            <textarea name="message" rows="6" class="input-area" placeholder="Your message" required></textarea>
+
+            <!-- <p><span><input type="checkbox"></span> I agree to the term of services</p> -->
+
+            <div class="btn-container">
+                <button type="submit" class="btn sendmessage-btn">Send message</button>
+            </div>
+
+        </form>
+    </div>
+
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
           <img src="./assets/whatsapp.png" alt="Email icon" class="icon contact-icon email-icon"/>
